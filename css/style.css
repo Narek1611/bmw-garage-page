@@ -1,0 +1,73 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://colouringyourlife.com/wp-content/uploads/2020/07/Blue-Nimbus-CLouds.jpg');
+    background-size: cover;
+}
+:root {
+    --main-color: rgb(207, 207, 207);
+    --second-color: #0066B3;
+    --third-color: #6F7070
+  }
+
+.navbar {
+    background-color: var(--main-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbarItems {
+    background-color: var(--second-color);
+    color: var(--main-color);
+    padding: 10px;
+    border: 2px solid white;
+    text-decoration: none;
+    border-style: groove;
+    border-radius: 10px;
+    font-size: 20px;
+}
+ .centralPic {
+    margin-top: 20px;
+    margin-bottom: 20px;
+     padding: 5px;
+     display: flex;
+     justify-content: center;
+     /* background-image: url('https://colouringyourlife.com/wp-content/uploads/2020/07/Blue-Nimbus-CLouds.jpg');
+     background-size: cover; */
+    ;
+ }
+
+ .headerWelcome {
+     font-size: xx-large;
+     display: flex;
+     justify-content: center;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     /* background-color: var(--main-color); */
+     color: var(--third-color);
+     margin-top: 5px;
+     margin-bottom:  5px;
+     box-sizing: border-box;
+     border: 10px solid var(--third-color);
+ }
+
+.bestSellingCars {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 10px solid var(--third-color);
+}
+
+.cars {
+    border: 5px solid var(--second-color);
+}
+
+P {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
